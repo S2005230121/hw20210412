@@ -1,0 +1,89 @@
+body{
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    background-color: #eee;
+    float: left;
+    margin: 0;
+    padding-left: 500px;
+    line-height: 30px;
+    width: 100%;
+}
+li{
+    padding-left: 10px;
+    list-style:none;
+    float:left;
+}
+.a{
+    color: red;
+}
+a{
+    display:block;
+    text-align: left;
+    text-decoration: none;    
+    color: rgb(141, 133, 133);
+}
+a:hover{
+    color: red;
+}
+
+.b{
+    background: #eee
+}
+.c{
+    color: red;
+}
+.d{
+    width: 200px;
+    height: 200px;
+    display:block;
+    display: none;
+    border:solid 1px rgb(168, 167, 167);
+    border-top: none;
+}
+.d a{
+    border: none;
+    float: left;
+    text-align:center;
+}
+.menu li{
+    list-style: none;
+    position: relative;
+}
+.menu .d {
+    display: none;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+}
+.b:hover{
+    background-color:white ;
+    border:solid 1px rgb(168, 167, 167);
+    border-bottom: none;
+}
+li:hover .d {
+    display: block;
+    background-color:white;
+}
+a{
+    text-decoration: none;    
+    color: rgb(138, 138, 138);
+    border-right:1px solid rgb(165, 163, 163);
+    padding-right: 20px;
+}
+.u {
+    border: none;
+}
+.jd{
+    width: 1900px;
+    height: 200px;
+    margin-left: px;
+    margin-top: px;
+    background: url(../images/京东.png) no-repeat center;
+}
+.fxr{
+    width: 990px;
+    height: 40px;
+}
